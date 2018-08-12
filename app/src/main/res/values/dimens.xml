@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="margin_button">8dp</dimen>
+    <dimen name="margin_edit_field">50dp</dimen>
+    <dimen name="padding_title">8dp</dimen>
+    <dimen name="padding2nd_line">5dp</dimen>
+    <dimen name="text2nd_line">20sp</dimen>
+    <dimen name="margin_delete_button">30dp</dimen>
+</resources>

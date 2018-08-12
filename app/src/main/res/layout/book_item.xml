@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/listViewColor"
+    android:padding="@dimen/padding">
+    <TextView
+        android:id="@+id/book_name"
+        style="@style/list_item"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/sell_button"
+        android:paddingTop="@dimen/padding_title"
+        android:textSize="25sp"
+        tools:text="title" />
+    <TextView
+        android:id="@+id/book_price"
+        style="@style/list_item"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/book_name"
+        android:layout_toStartOf="@id/book_quantity"
+        android:paddingTop="@dimen/padding2nd_line"
+        android:textColor="@color/background"
+        android:textSize="@dimen/text2nd_line"
+        tools:text="price : 5 €" />
+
+    <TextView
+        android:id="@+id/book_quantity"
+        style="@style/list_item"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/book_name"
+        android:gravity="end"
+        android:paddingTop="@dimen/padding2nd_line"
+        android:textColor="@color/background"
+        android:textSize="@dimen/text2nd_line"
+        tools:text="we have 5 in store" />
+
+    <Button
+        android:id="@+id/sell_button"
+        android:focusable="false"
+        style="@style/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@color/background"
+        android:text="@string/sell"
+        android:textColor="@color/button"
+        android:textSize="@dimen/text2nd_line" />
+
+</RelativeLayout>
