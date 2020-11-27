@@ -69,7 +69,7 @@ public class BookstoreActivity extends AppCompatActivity implements LoaderManage
             case R.id.insert_the_mummy_data:
                 insertMummyData();
                 return true;
-            case R.id.fahreneit451:
+            case R.id.fahrenheit451:
                 fahrenheit451();
                 return true;
         }
